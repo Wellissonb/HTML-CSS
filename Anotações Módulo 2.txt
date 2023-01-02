@@ -1,0 +1,273 @@
+                        PSICOLOGIA DAS CORES
+   As cores são de suma importancia para um bom site, elas transmitem emoções, e em boa parte dos casos, são elas que dedicem quanto tempo o usuario ficará no site. 
+   A cor azul, por exemplo, transmite profissionalismo, calma, frieza. A cor vermelha, transmite emoção, raiva, entreterimento. 
+ 
+       			REPRESENTANDO CORES
+Podemos reprenta-las usando os códigos hexadecimais como #0000ff
+
+Podemos represtalas também por combinações rg, usando rgb(0,0,255) por exemplo.
+
+Podemos representa-los com:
+HEXADECIMAL: #0000FF; 
+RGB: 0,0,255; 
+NOME: blue;
+HSL: (matiz%, saturação%, luminosidade%; 
+
+o simbolo * significa configuração global nas css
+
+Ao arrastar a barrinha do meio na opçao de cores do vstudiocode, podemnos deixar a cor mais transparente
+
+COR É DIREITA, TOM NA ESQUERDA E TRANSPARENCIA NO MEIO
+
+                   HARMONIA DAS CORES
+
+O circulo cromático é importantíssimo para a harmonia de cores!
+
+Temos as cores primárias,secundárias e terceirárias
+
+Ao fazer um triângulo equilátero no circulo, veremos as cores primárias
+
+CORES TERCEIRÁRIAS: ao usarmos uma cor terciária, nomearemos-a com o nome da cor primária e o nome da cor secundária.
+
+CORES COMPLEMENTARES: para encontrarmos as cores complementares, usaremos a que esta do outro lado do circulo cromático
+
+CORES ANÁLOGAS: cores análogas são cores em que não existe um contraste tão grande entre elas, porém, são perceptíveis. Para isso, pegaremos as cores ao lado
+
+CORES ANÁLOGAS RELACIONADAS: pegaremos somente UMA cor vizinha, e logo após, pegaremos outra cor ao lado pulando uma.
+
+CORES INTERCALADAS: escolheremos uma cor central, logo após, pularemos uma cor, e pegaremos a cor seguinte, e entao, faremos isso mais uma vez. No final, teremos uma paleta com 3 cores.
+
+CORES TRIÁDICAS: É praticamente mesma coisa das cores primárias, porem, o triangulo equilatero pode ser movido para qualquer direção.
+
+CORES EM QUADRADO: pegamos uma cor, logo depois pulamos 2 cores e pegamos esta cor. faremos isso 3 vezes, para no final obter 4 cores.
+
+CORES TETRÁDICAS: escolhemos 1 cor, pegamos a do lado oposto desta cor. Faremos isso 2 vezes, para assim obtermos 4 cores.
+
+Podemos criar uma paleta usando Cores Análogas e uma complementar. Por exemplo, as duas cores vizinhas do roxo, e uma complementar, no caso, a que esta do outro lado do circulo cromatico
+
+                             PALETA DE CORES
+
+  			     ADOBE.COLOR.COM
+
+Um ótimo site para criar ou escolher paletas é o adobe.color.com. Nele, podemos criar, como ja citado antes, e tambem podemos escolher paletas ja existentes feitas por outras pessoas. Na opção "extrair",  uma imagem, e o site nos dará uma paleta correspondente à aquela imagem. Em "extrair gradiente", podemos escolher o degrade de cores.
+
+                              PALETTON.COM
+
+tem uma ferramenta incrível, na qual você pode ver um exemplo de site com a paleta que você escolheu.
+
+                               COOLORS	
+
+a cada vez que você aperta espaço, uma paleta vai surgir, caso goste de alguma cor, vc pode clicar no cadeado, que assim, o algoritimo vai sugerir cores que combinem com a que voce colocou o cadeado.
+
+                           DEGRADE DE CORES
+
+para fazer isso, usaremos por exemplo: backgroudc	olor: linear-gradient(direção,cor,cor)
+
+
+                            EX16 - EXEMPLO REAL
+
+centralizar os textos da tag main: margin: auto; centralizar
+
+tirar a borda da caixa da tag main: border-radius; tirar a borda
+
+sombra na caixa da tag main: box-shadow: colocar sombra
+
+degradê de cores: backgroud-image: linear-gradient(direção,cor,cor)
+
+ 			   TIPOGRAFIA
+
+O tipo da letra carrega com sigo sentimentos, da mesma forma que as cores
+
+os componentes anatomicos geométricos das letras são: filete, vértice, esporão, haste, arco,terminal
+
+para textos muito grande, não é recomendavel usar fonte serifada, e sim fontes sem serifa
+
+CATEGORIAS DE FONTES:
+
+serifa
+sem sefira
+mono espaçada: o tamanho das letras sao iguais
+handwrite: tenta imitar a escrita feita a mao
+display: comemorativa
+
+Quando vamos colocar a font na css, colocamos não so uma, mas sim varias, pois pode ocorrer de no dispositivo nao haver determinada fonte, sendo assim, o codigo recorrerá a proxima fonte indicada. por exemplo: Arial, Cursive, sans serif. Neste caso, a primeira a testada é a Arial, e se houver ela no dispositivo, sera a usada.
+
+Em textos muito longos, é recomendavel usar fonte sem serifa
+
+Medidas Absolutas:
+cm,mm, in(polegada),px, pt, pc
+
+Medidas Relativas:
+em(relativa ao tamanho atual da fonte), ex(relativa a altura x de uma fonte), rem(relativa a fonte configurada no body),vw(largura da viewport, ou seja, tamanho da tela baseado na largura da tela), vh(baseada na altura da tela), %
+
+font-weight:peso (ela ser mais magrinha ou mais gordinha)
+
+temos os tipos de peso: ligther(leve), normal, bold(gordinha), bolder(muito gorda)
+
+também é possivel definir o peso através de numeros 100 - 900
+
+width: largura
+height: altura
+
+shorthand font significa uma ajuda na hora de definir as caracteristicas da fonte. a ordem é: font-style, font-weight, font-size, font-family.
+
+para pegar uma fonte exeterna, podemos usar o google fonts, onde iremos colar o link copiado la, dentro da tag style;
+
+tipos de format()
+opentype(otf)
+truetype(ttf)
+embedded-opentype
+truetype-aat (Apple Advanced Typegraphy)
+svg
+
+
+para importarmos uma font do servidor, usamos @font-face. Essa biblioteca nos fornece a opção de pegar um arquivo interno e colocar um nome para ele, e com este nome conseguimos usar a fonte.
+
+como saber o nome de determinada fonte que achei em algum site? basta apenas usar o "fonts ninja", com essa extensao instalada, é so clicar sobre ela e colocar o mouse em cima da fonte que deseja saber o nome.
+
+como saber o nome de determinada fonte que achei em uma imagem?
+podemos usar o site "https://www.whatfontis.com".
+
+                            ALINHAMENTOS
+
+
+
+text-align - serve para alinhar o texto.
+	
+text-indent - serve para colocar um parágrafo. Podemos determinar o espaço utilizando "px".
+
+
+                          SELETORES
+
+Para podermos modificar somente um elemento dentre varios, colocamos um identificador nele. Podemos ter vários h1 em um mesmo código, porém, se fizermos <h1 id="principal">, estamos atribuindo um identificador nele, que na hora de modificar com css, faremos h1#nome do id
+
+Em HTML é id, em css é #
+Em HTML é class, em css é .
+
+Representamos pseudoclasses com dois pointos(:), pseudoelemtos com dois pontos duas vezes(::), e por fim, > significa filho, ou seja, que uma tag esta dentro de outra.
+
+Uma classe funciona da seguinte maneira: vamos declarar o seu nome, e apos isso, colocamos os estilos que irao conter nela. Com uma classe "texto", por exemplo, todas as tags que tiverem class="texto", irão ser modificadas de acordo com o que tiver dentro da classe texto nas css. .texto{text-align:center;}
+
+a tag <span> por si só nao serve pra nada, porem, quando colocamos uma classe nela, o conteudo dentro dessa tag mudara de acordo com o que esta sendo especificado na classe.
+
+Podemos usar mais de uma classe em determinada tag, basta apenas especificar o nome delas, por exemplo, class="basico principal".
+
+border: serve para colocar uma borda, como o próprio nome já sugere. border: tamano, tipo, cor.
+
+display: inline-block; deixa tudo na mesma linha.
+
+
+
+  Pseudo-Classes:
+
+tag:hover{} significa que quando voce passar o mouse por cima, irá acontecer o que esta dentro das chaves.
+
+Para esconder um texto, podemos fazer igual a este exemplo: div > p{display none}; esse codigo se traduz basicamente "todos os paragravos que estiverem dentro de div, não serão mostrados".
+
+Pseudo classe hover: voce escolhe o que acontecerá quando passar o mouse por cima do elemento.
+
+active: determina como o elemento vai ficar quando voce segurar com o botao do mouse em cima dele.
+
+visited: permite que voce escolha a maneira que o elemento vai ficar apos ser visitado.
+
+  Pseudo-Elementos:
+
+after: pode determinar o que vai aparecer no final do conteúdo.Por exemplo, no final de todos os parágrafos, colocamos o texto "paragrafo".
+
+before: determina o que vem antes do conteudo.
+
+
+                               MODELO DE CAIXAS
+
+padding é o preenchimento de uma caixa. Serve para a borda fique distante do conteudo.
+
+margin serve para dar um espaço externo.
+
+outline serve para dar um traçado na borda do elemento.
+
+TIPOS DE CAIXA:
+
+box-level: ocupa 100% da largura da viewport e gera uma quebra de linha
+
+inline-level: só ocupa a largura do elemento mostrado e nao gera quebra de linha.
+
+tanto em margin como em padding, podemos espeficiar a largura inferior, do topo, da esquerda e da direita.
+
+user agent significa que é o navegador que esta exibindo o conteudo.
+
+Ao inspecionar uma página, podemos ir em estilos e alterar os valores sem modificar o arquivo.
+
+Para toda caixa que desejamos que fique no meio da página, usamos margin:auto;
+
+Podemos usar shorthands para simplificar as propiedades da bord, outline, padding e margin.
+
+shorthand bord: width, style, color.
+
+shorthand padding: top, right, bottom, left.
+
+shorthand margin: top, right, bottom, left.
+
+shortdhand outline: width, style, color.
+
+TAGS DE AGRUPAMENTO
+
+<header> - cabeçalho
+<main> - conteúdo principal
+<footer> - rodapé
+
+
+
+<section> - sessão
+<article> - artigo
+<aside> - conteúdo periférico ao artigo.
+
+SOMBRAS NAS CAIXAS
+
+shorthand box shadow: horizontal, vertical, blur e espalhamento.
+
+
+
+
+VERTICES ARREDONDADOS
+
+border-radius - raio da borda, serve para arredondar as pontas.
+
+o shorthand do border-radios é a mesma coisa que os de padding e margin, no quais são topo, direita, baixo e esquerda.
+
+
+BORDAS DECORADAS
+
+border-image-source: urf('') - dá a possibilidade de escolhermos uma borda personalizada.
+
+border-image-slice: valor - fatiamento.
+
+border-image-repeat: repeat;
+
+podemos usar a pseudo-classe :root para criar variáveis em css. Toda variável começa com --
+
+para fazer uma configuração global, usamos * {}.
+
+    			RESPONSIVIDADE 
+
+min-width: vai adaptar ate no minimo os px que voce indicar.
+max-width: vai adapatar ate no maximo os px que voce indicar.
+
+img{width:100%} faz a imagem se tornar responsiva
+
+
+
+transition-duration - ao passar com o mouse por cima de determinado elemento, ele levara a quantidade de tempo especificada para mostrar o que esta dentro do hover.
+
+para colocar a list style para dentro da caixa, por exemplo, as bolinhas, usamos list-style-position: inside;
+
+para dividir a lista em duas colunas, usamos columns: 2;
+
+para mudar o icone das listas ul, usamos list-style-type: aqui pode conter um emoji, imagem, etc.
+                         
+
+	             TORNANDO UM VÍDEO RESPONSIVO
+
+na div em que o vídeo está dentro, colocamos position:relative; e em seguida colocaremos um valor com porcentagem no padding-bottom, top: valor com porcentagem, left: valor com porcentagem, width: valor com portencagem, height: valor com porcentagem
+								
+
+

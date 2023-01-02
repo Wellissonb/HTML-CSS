@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>tente abrir este site em dispositivos diferentes ou diminua o tamanho da janela do navegador</p>
+    <p>
+        <picture>
+           <source media="(max-width: 700px)" srcset="imagens/Pequena.png" type="image/png">
+
+            <img src="imagens/Media.png" alt="">
+        </picture>
+    </p>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Aprendendo a colocar áudio no site! com html5.</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/losingneffex.mp3" type="audio/mpeg">
+        <source src="midia/losingneffex.mp3" type="audio/ogg">
+        <p>nao foi possivel carregar o audio, clique <a href="midia/losingneffex.mp3">aqui</a> para baixar</p>
+
+    </audio>
+</body>
+</html>
