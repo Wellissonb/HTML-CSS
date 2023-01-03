@@ -4,4 +4,4 @@
 Usando o git e github para gerenciar meus sites/códigos.
 
 
-<a href="https://wellissonb.github.io/HTML-CSS/EXERCÍCIOS/ex001/">Acesso o primeiro exercício</a>
+<a href="https://wellissonb.github.io/HTML-CSS/EXERCÍCIOS/ex001/">Acesso o primeiro exercícioA</a>
