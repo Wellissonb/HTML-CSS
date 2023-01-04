@@ -1,7 +1,0 @@
-			       GIT
-
-Git é um software que vai manter versões do seu site/código dentro do seu computador.
-
-			      GITHUB
-
-Fazemos um beckup de forma gratuita na nuvem.
