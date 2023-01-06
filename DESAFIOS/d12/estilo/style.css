@@ -36,13 +36,15 @@ header > h1{
 
 header > p{
     padding-bottom: 50px;
-    font-size: 24px;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header > p > a, footer a{
     color: white;
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header a, footer a:hover{
@@ -57,7 +59,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 3.7vw;
+    font-size: 3.5vw;
     font-family: var(--seriracha);
 }
 
@@ -69,13 +71,32 @@ section.normal{
 section.imagem{
     background-color: rgba(56, 54, 54, 0.692);
     color: white;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.466);
+    background-attachment: fixed;
     
 }
 
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.233);
+    background-color: rgba(0, 0, 0, 0.425);
     display: inline-block;
     padding: 5px;
+    text-shadow: 1px 0px 1px black;
+}
+section.normal > p{
+    padding-bottom: 50px;
+
+}
+section#primeira{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+    
+}
+
+section#segunda{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
     
 }
 
