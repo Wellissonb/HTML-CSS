@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando Iframe</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            height: 500px;
+            width: 90vw;
+            border: 2px solid black;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Escolha a página</h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quos delectus fugit natus aspernatur saepe consequatur velit voluptatibus ipsa veritatis tempora sunt ipsam aliquam praesentium. Quia ut eligendi nisi saepe.</p>
+
+    <ul>
+
+        <li><a href="paginas-extras/pag001.html" target="pagina1">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="pagina1">Capítulo 1</a></li>
+        <li><a href="paginas-extras/pag03.html" target="pagina1">Capítulo 2</a></li>
+
+    </ul> 
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores facilis aperiam dolores ab ducimus officiis commodi corporis, beatae maxime repellat, facere aliquid, hic in obcaecati voluptatum dolor ipsa adipisci nulla! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt possimus fugiat, dolore quo, quas ea iure nostrum quod rem doloremque velit autem quis, dolor pariatur perspiciatis tempore veritatis expedita repellendus!</p>
+
+    <iframe srcdoc="
+
+        <h1> Html dentro do iframe </h1>
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat magni illum sit eveniet ducimus dolore repudiandae libero quae porro quaerat itaque quisquam ratione iure repellat nulla, aliquam blanditiis. Dolores, vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis temporibus nulla explicabo ipsa, laboriosam reiciendis ea iusto iure voluptatem quia dolore deserunt quos alias repudiandae natus aut itaque quidem placeat. </p> 
+    
+    
+    
+    
+    " frameborder="1" name="pagina1"></iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit saepe, nesciunt accusantium voluptates laborum dignissimos pariatur vitae sapiente odio iusto unde quisquam adipisci totam consectetur voluptatibus cumque libero. Minima, modi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, sit veritatis. Eum officiis facilis, voluptas dolorum quas tempore reprehenderit totam sapiente pariatur, nesciunt, ipsa a provident? Beatae consectetur accusantium tempora!</p>
+    
+</body>
+</html>
