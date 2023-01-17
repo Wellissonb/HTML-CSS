@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+
+    <style>
+        input#enviar,input#limpar{
+            font-weight: bolder; padding: 10px;
+            background-color: bisque;
+            margin: 10px;
+        }
+
+        input#enviar:hover,input#limpar:hover{
+            background-color: burlywood;
+            font-size: 20px;
+            color: aquamarine;
+        }
+
+    </style>
+</head>
+<body>
+
+    <form method="get" action="cadastro.php">
+
+        <label for="ilinguagem">Escolha uma linguagem: </label>
+        <select name="linguagens" id="ilinguagem">
+            <optgroup label="Front-End" aria-required="true">
+                <option value="escolha" marked>--escolha--</option>
+                <option value="JS">JavaScript</option>
+                <option value="HTML">Hyper Text Marker Language</option>
+                <option value="CSS">Cascading Style Sheet</option>
+                <option value="PHP">PHP</option>
+            </optgroup>
+        </select>
+    </p>
+    <p>
+        <label for="ipeça">Escolha um componente de PC</label>
+        <input type="text" name="peça" id="ipeça" list="lista">
+        <datalist id="lista">
+            <option>RX 5600 TI</option>
+            <option>i9-9990k</option>
+            <option>Redragon Lakshimi</option>
+        </datalist>
+    </p>
+
+    <p><input type="submit" value="Enviar" id="enviar"><input type="reset" value="Limpar" id="limpar"></p>
+
+    <p><label for="imsg">Digite uma mensagem</label>
+        <br>
+        
+        <textarea name="texto" id="imsg" cols="30" rows="10" placeholder="DIGITE UMA MENSAGEM"></textarea>
+    
+    </p>
+
+    </form>
+    
+    
+</body>
+</html>
