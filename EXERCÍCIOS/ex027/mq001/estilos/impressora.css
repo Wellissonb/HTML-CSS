@@ -1,0 +1,33 @@
+@charsest "UTF-8";
+
+/* Estilo para impressora */
+
+*{
+    margin: 5px;
+    padding: 10px;
+}
+
+html{
+    font-family: serif;
+    
+    line-height: 30px
+}
+
+menu{
+    display: none;
+}
+
+article::after{
+    content: 'Esse artigo foi impresso através do site www.welldzy.com.br';
+}
+
+header{
+    height: 300px;
+    background-color: cornflowerblue;
+    color: blueviolet;
+    text-align: center;
+}
+
+article{
+    width: 100%;
+}
