@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* aparelho deitado (landscape) */
+
+body{
+    background-color: orangered;
+    background-image: url(../imagens/cursoemvideo-deitado.JPG);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
