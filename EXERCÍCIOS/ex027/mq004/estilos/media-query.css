@@ -1,0 +1,28 @@
+/* Tipos de quebramento de telas */
+
+/*
+Telas pequenas: até 600px
+
+Celular: de 600px até 768px
+
+Tablete: 768px até 992px
+
+Desktop: 992px até 1200px
+
+Grandes telas: acima de 1200px
+*/
+
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: none;
+    }
+    main{
+        width: 100vw;
+    }
+    h1{
+        font-size: 3em;
+    }
+
+}
+
