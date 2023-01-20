@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    main{
+        max-width: 700px;
+    }
+    i#iburguer{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+    header ul li{
+        list-style-type: none;
+        display: inline-block;
+        
+    }
+    
+    header ul li a{
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px;
+        background-color: rgb(77, 75, 75);
+        margin: 2px;
+        border: 2px solid rgba(255, 255, 255, 0.377);
+        box-sizing: border-box;
+    }
+    
+}
